@@ -1,5 +1,9 @@
 # Kube-hunter Helm Chart
 
+This repository was forked from [this Gitlab repository](https://git.app.uib.no/caleno/helm-charts/-/tree/eee84d29fdea80cd859d76210bd8262ad484ebd3/stable/kube-hunter).
+
+Find STFC Cloud docs on how to use kube-hunter [here]() (link to be added once docs are published).
+
 This directory contains a Kubernetes chart to deploy [Kube-hunter](https://github.com/aquasecurity/kube-hunter).
 
 ## Chart Details
