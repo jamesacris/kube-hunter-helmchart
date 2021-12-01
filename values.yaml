@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 
 cronjob:
-  # At 14:00 every day
-  schedule: "*/1 * * * *" #"1 4 * * *"
+  # At 01:00 every day. To test, run every minute using "*/1 * * * *"
+  schedule: "0 1 * * *"
   annotations: {}
   concurrencyPolicy: "Forbid"
   failedJobsHistoryLimit: "1"
